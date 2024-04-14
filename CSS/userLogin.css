@@ -14,11 +14,7 @@ body {
   align-content: center;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(
-      rgba(0, 189, 85, 0.591),
-      rgba(32, 125, 255, 0.164)
-    ),
-    url(https://img.freepik.com/premium-vector/hand-drawn-animals-pattern_23-2147537189.jpg?w=826);
+  background-image: url("https://images.pexels.com/photos/2085998/pexels-photo-2085998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;

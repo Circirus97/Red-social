@@ -13,11 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(
-      rgba(0, 189, 85, 0.591),
-      rgba(32, 125, 255, 0.164)
-    ),
-    url(https://img.freepik.com/premium-vector/hand-drawn-animals-pattern_23-2147537189.jpg?w=826);
+  background-image: url("https://images.pexels.com/photos/2085998/pexels-photo-2085998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,32 +23,13 @@ body {
   text-align: center;
 }
 
-.flags {
-  display: flex;
-  width: 75px;
-  flex-direction: column;
-  align-items: baseline;
-}
-
-.flagsItems img {
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-}
-
-.flags button {
-border: none;
-margin: 5%;
-background-color: transparent;
-}
-
 /* Login container */
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   height: 100%;
   margin: auto;
   overflow: hidden;
@@ -63,7 +40,8 @@ background-color: transparent;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  margin-top: 10%;
+  height: 100%;
   width: 50%;
   background-color: #fff;
   box-shadow: 5px 4px 15px 5px #000;
@@ -145,32 +123,6 @@ form button:hover {
 
 /********************************/
 
-
-/* add pet modal */
-
-.modal-content{
-  border-radius: 30px;
-}
-
-.modal-body{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 500px;
-  background-image: url(https://img.freepik.com/fotos-premium/doberman-sobre-fondo-rosa-mascota-divertida-perro-divertido_607202-10946.jpg);
-  background-size: cover;
-  align-items: center;
-  border-radius: 10px;
-}
-
-/* .modal-body h1{
-  background-color: #ffffff57;
-} */
-
-
-
-/********************************/
 
 /* Button Home */
 

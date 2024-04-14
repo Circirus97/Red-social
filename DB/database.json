@@ -7,7 +7,22 @@
       "nameUser": "Felipe Posada",
       "cellphoneUser": "3125295136",
       "urlPhoto": "http://res.cloudinary.com/dlghqei9h/image/upload/v1707267271/zr5npyvemm3gqnpzda9b.jpg",
-      "friends": []
+      "friends": [
+        {
+          "id": "1e3d8da2-9a67-465d-9591-7189af228968",
+          "friendId": "7fc8",
+          "status": "Pendiente",
+          "isTheAggregator": true,
+          "matchId": "0e324072-bb9e-45c5-9189-576f6843e50c"
+        },
+        {
+          "id": "68eb931f-8ed2-4b30-845e-ebe337e1588c",
+          "friendId": "dbf451",
+          "status": "Pendiente",
+          "isTheAggregator": true,
+          "matchId": "73beb4a7-7ceb-4d56-ba63-acfc080dab91"
+        }
+      ]
     },
     {
       "id": "7fc8",
@@ -16,7 +31,15 @@
       "nameUser": "Alejandra",
       "cellphoneUser": "3003552",
       "urlPhoto": "http://res.cloudinary.com/dlghqei9h/image/upload/v1707656747/zphkxjmq5rl3qeewo8yw.png",
-      "friends": []
+      "friends": [
+        {
+          "id": "e598c601-16ed-4414-b2cb-468c991e3363",
+          "friendId": "4cd0",
+          "status": "Pendiente",
+          "isTheAggregator": false,
+          "matchId": "0e324072-bb9e-45c5-9189-576f6843e50c"
+        }
+      ]
     },
     {
       "id": "dbf451",
@@ -25,7 +48,15 @@
       "nameUser": "Stefany",
       "cellphoneUser": "20321",
       "urlPhoto": "",
-      "friends": []
+      "friends": [
+        {
+          "id": "9e0725d8-3dd0-4f61-b72a-69642f1568d1",
+          "friendId": "4cd0",
+          "status": "Pendiente",
+          "isTheAggregator": false,
+          "matchId": "73beb4a7-7ceb-4d56-ba63-acfc080dab91"
+        }
+      ]
     }
   ],
   "publications": [
