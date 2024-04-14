@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap;700&family=Urbanist:wght@200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(0, 189, 85, 0.591),
+      rgba(32, 125, 255, 0.164)
+    ),
+    url(https://img.freepik.com/premium-vector/hand-drawn-animals-pattern_23-2147537189.jpg?w=826);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  font-family: "Poppins", cursive;
+  text-align: center;
+}
+
+.flags {
+  display: flex;
+  width: 75px;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.flagsItems img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.flags button {
+border: none;
+margin: 5%;
+background-color: transparent;
+}
+
+/* Login container */
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  
+  /* margin: auto; */
+  /* overflow: hidden; */
+  
+}
+
+.container form {
+  background-color: #fff;
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 5px 4px 15px 5px #000;
+  border-radius: 20px;
+  font-size: 15px;
+  overflow: hidden;
+  gap: 3px;
+  
+}
+
+.container h3 {
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  text-shadow: 5px 5px 5px #ccc;
+  font-size: 35px;
+}
+
+.container .imageLogin {
+  width: 60%;
+  height: 40%;
+  border-radius: 50%;
+}
+
+.container form input {
+  display: flex;
+  text-align: center;
+  outline: 0;
+  width: 350px;
+  border-radius: 30px;
+  border: 2px solid #00bd56;
+  padding: 2%;
+  margin: auto;
+}
+
+.container input:hover {
+  box-shadow: 2px 2px 5px #207dff;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+form #submitCreateAccount {
+  outline: 0;
+  border: 0;
+  background-color: #207dff;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 150px;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+form #submitLogin {
+  outline: 0;
+  border: 0;
+  background-color: #00bd56;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 150px;
+  padding: 16px;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+form button:hover {
+  opacity: 0.75;
+}
+
+#home {
+  outline: 0;
+  border: 0;
+  background-color: #ff5757;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 150px;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  font-weight: 500;
+  color: #Ffff;
+}
+
+
+
+/********************************/
+
+@media (max-width: 990px) {
+  .container form {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 70%;
+  }
+}
+
+@media (max-width: 900px) {
+  .buttonsProfileUser {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+  }
+  .containerPet img {
+    width: 100%;
+    height: 200px;
+  }
+  .pictureUser .photoUser {
+    width: 30vw;
+    height: 35vh;
+  }
+}
+
+/* @media (max-width: 600px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .imageLogin {
+    width: 90%;
+    height: 40%;
+    border-radius: 50%;
+  }
+  #home{
+    margin-top: 7%;
+  }
+  .form-content{
+    gap: 2%;
+  }
+} */
